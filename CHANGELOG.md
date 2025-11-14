@@ -18,7 +18,3 @@
 1. 修改塔台的prf打开错误
 1. 更新README
 1. 删除关于sktlite的内容
-1. 更新.gitignore
-1. 更新ip_address、删除微信赞助图
-1. 更新AircraftPerformance.txt的版权声明
-1. 更改.sct、.ese位置

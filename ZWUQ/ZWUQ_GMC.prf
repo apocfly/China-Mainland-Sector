@@ -1,7 +1,7 @@
 LastSession	tovatsim	0
 LastSession	server	Flyatcsim
 
-Settings	sector	..\Data\Sector\ZWUQ.sct
+Settings	sector	\ZWUQ.sct
 
 Plugins	Plugin0	\..\Data\Plugins\MTEP\MTEPlugin.dll
 Plugins	Plugin0Display0	Standard ES radar screen
