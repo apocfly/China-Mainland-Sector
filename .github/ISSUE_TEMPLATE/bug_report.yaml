@@ -1,0 +1,91 @@
+﻿name: "🐛 Bug 报告"
+description: "报告一个可复现的错误或问题"
+title: "[Bug] <Topic>"
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "## 感谢您提交错误报告！\n请提供详细的信息以便我们快速定位和解决问题。"
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: "提交前确认"
+      description: "请确认以下事项"
+      options:
+        - label: "我已经搜索过现有的Issue，没有找到相同问题"
+          required: true
+        - label: "我已在最新版本中验证此问题仍然存在"
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: "版本信息"
+      description: "您使用的项目版本、Commit Hash或发布日期"
+      placeholder: "例如：v2.1.0 或 a1b2c3d"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: "环境类型"
+      description: "选择问题发生的环境"
+      options:
+        - "开发环境"
+        - "测试环境"
+        - "生产环境"
+        - "本地环境"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: "操作系统"
+      description: "操作系统和版本号"
+      placeholder: "例如：Windows 11 22H2, Ubuntu 22.04, macOS 14.0"
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "复现步骤"
+      description: "清晰描述如何复现这个问题"
+      placeholder: "1. 进入 '...'\n2. 点击 '....'\n3. 滚动到 '....'\n4. 看到错误"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "预期行为"
+      description: "您期望发生什么？"
+      placeholder: "清晰简洁地描述您期望的结果"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "实际行为"
+      description: "实际发生了什么？"
+      placeholder: "清晰简洁地描述实际发生的结果"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "相关日志/截图"
+      description: "如果有错误日志、控制台输出或截图，请在此提供"
+      render: shell
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "行为准则确认"
+      description: "请确认遵守项目的行为准则"
+      options:
+        - label: "我同意遵守此项目的行为准则"
+          required: true

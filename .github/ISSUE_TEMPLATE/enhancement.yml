@@ -1,0 +1,50 @@
+﻿name: "✨ 功能增强"
+description: "对现有功能提出改进建议（非新功能）"
+title: "[Enhance] <Topic>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "## 感谢您提出改进建议！\n这个模板用于优化现有功能，而非请求全新功能。"
+
+  - type: input
+    id: feature
+    attributes:
+      label: "相关功能"
+      description: "您希望改进哪个现有功能？"
+      placeholder: "例如：用户登录流程、数据导出功能等"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: "当前行为"
+      description: "当前这个功能是如何工作的？有什么不足？"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_behavior
+    attributes:
+      label: "建议的改进"
+      description: "您希望如何改进这个功能？"
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: "预期收益"
+      description: "这个改进会带来什么好处？"
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "确认事项"
+      description: "请确认以下事项"
+      options:
+        - label: "我已搜索过现有Issue，没有找到相同建议"
+          required: true
+        - label: "我同意遵守此项目的行为准则"
+          required: true

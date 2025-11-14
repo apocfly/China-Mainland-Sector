@@ -1,0 +1,61 @@
+﻿name: "📚 文档改进"
+description: "报告文档问题或建议文档改进"
+title: "[Docs] <Topic>"
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: "## 感谢您帮助我们改进文档！\n清晰的文档对每个用户都很重要。"
+
+  - type: input
+    id: doc_location
+    attributes:
+      label: "文档位置"
+      description: "相关文档的URL或文件路径"
+      placeholder: "例如：https://... 或 docs/getting-started.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: "问题类型"
+      description: "请选择文档问题的类型"
+      options:
+        - "拼写错误或语法问题"
+        - "信息不准确或过时"
+        - "内容缺失或不完整"
+        - "难以理解或混乱"
+        - "翻译问题"
+        - "其他"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_content
+    attributes:
+      label: "当前内容"
+      description: "引用或描述当前的文档内容"
+      placeholder: "当前文档说：..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_content
+    attributes:
+      label: "建议的改进"
+      description: "您认为应该如何改进"
+      placeholder: "建议改为：..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "确认事项"
+      description: "请确认以下事项"
+      options:
+        - label: "我已搜索过现有Issue，没有找到相同建议"
+          required: true
+        - label: "我同意遵守此项目的行为准则"
+          required: true

@@ -1,0 +1,8 @@
+﻿blank_issues_enabled: true
+contact_links:
+  - name: "📚 查阅文档"
+    url: "https://github.com/Flyleague-Collection/Operating-document"
+    about: "请先查阅项目文档，很多问题已有解答"
+  - name: "💬 社区讨论"
+    url: "https://github.com/orgs/Flyleague-Collection/discussions"
+    about: "欢迎在这里提出想法和问题"
