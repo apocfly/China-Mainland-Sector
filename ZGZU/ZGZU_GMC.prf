@@ -1,4 +1,4 @@
-LastSession	tovatsim	0
+LastSession	tovatsim	1
 LastSession	server	Flyatcsim
 
 Settings	sector	\ZGZU.sct
@@ -26,6 +26,8 @@ Plugins	Plugin4Display1	Ground Radar display
 Plugins	Plugin5	\Plugins\DxRenderPlugin\DxRenderPlugin.dll
 Plugins	Plugin5Display0	Standard ES radar screen
 Plugins	Plugin5Display1	Ground Radar display
+
+Plugins	Plugin6	\..\Data\Plugins\ES_AirAmazEuroscope.dll
 
 Settings	alias	\..\Data\Settings\alias.txt
 Settings	ipaddr	\..\Data\Settings\Ip_address.txt

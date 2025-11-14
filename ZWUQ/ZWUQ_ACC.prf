@@ -1,4 +1,4 @@
-LastSession	tovatsim	0
+LastSession	tovatsim	1
 LastSession	server	Flyatcsim
 
 Settings	sector	\ZWUQ.sct
@@ -22,6 +22,8 @@ Plugins	Plugin3Display1	Ground Radar display
 Plugins	Plugin4	\Plugins\DxRenderPlugin\DxRenderPlugin.dll
 Plugins	Plugin4Display0	Standard ES radar screen
 Plugins	Plugin4Display1	Ground Radar display
+
+Plugins	Plugin5	\..\Data\Plugins\ES_AirAmazEuroscope.dll
 
 ASRFastKeys	1	\ASRs\ZWUQ_ACC.asr
 ASRFastKeys	2	\ASRs\ZWWW_GMC.asr
