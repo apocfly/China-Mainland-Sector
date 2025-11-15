@@ -15,7 +15,7 @@ China-Mainland-sector开源扇区项目致力于提供免费、开源的 Euroscope 扇区以帮助来自
 
 ### 飞行情报区
 
-<img src="./assets/Airspace.jpeg" alt="FIR|500x500" style="zoom:30%;" />
+<img src="https://community.vatprc.net/uploads/default/original/2X/b/bb18a0f7453f3f70682c7f1ccff30ae6e6c14bb8.jpeg" alt="FIR|500x500" style="zoom:30%;" />
 
 *注：此图转自https://www.vatprc.net/zh-cn/airspace/fir*
 
