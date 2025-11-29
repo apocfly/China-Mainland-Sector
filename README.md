@@ -3,7 +3,7 @@
 
 China-Mainland-sector开源扇区项目致力于提供免费、开源的 Euroscope 扇区以帮助来自世界各地的模拟管制爱好者获得更好的模拟飞行体验。
 
-如果您在使用扇区的过程中遇到了任何问题、或者有任何好的建议，欢迎在[Issues](https://github.com/Flyleague-Collection/China-Mainland-Sector/issues)页向我们提出！
+如果您在使用扇区的过程中遇到了任何问题、或者有任何好的建议，欢迎在[Issues](https://github.com/Master-Gui-Studio/China-Mainland-Sector/issues/new/choose)页向我们提出！
 
 如果您喜欢本扇区，欢迎您给扇区点点``Star``, 或者在下方赞赏我们，您的支持是我们更新的动力！
 
