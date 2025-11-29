@@ -1,3 +1,10 @@
+-----------------------------------------------------------------
+;China-Mainland-Sector ESE Data File
+;The data file intended for simulator only Do not use for reality
+;AIRAC Cycle : 2512 (27/NOV/2025-25/DEC/2025) - Ver.1
+;Creative time:GMT (UTC+8) 2025-11-30 00:05:25
+;-----------------------------------------------------------------
+
 [AIRSPACE]
 SECTORLINE:0
 COORD:N036.58.15.999:E127.33.38.998
